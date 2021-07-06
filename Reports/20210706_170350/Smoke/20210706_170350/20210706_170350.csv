@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,Chrome 91.0.4472.114,,,2021-07-06 17:03:59,2021-07-06 17:04:18,18.734s,PASSED
+,,,,,,,
+Test Cases/Onliner,Chrome 91.0.4472.114,,,2021-07-06 17:04:00,2021-07-06 17:04:18,18.516s,PASSED
+Start setup action : setupTestCase,Chrome 91.0.4472.114,,,2021-07-06 17:04:00,2021-07-06 17:04:02,2.349s,PASSED
+navigateToUrl(baseURL),Chrome 91.0.4472.114,,,2021-07-06 17:04:02,2021-07-06 17:04:04,1.925s,PASSED
+"click(findTestObject(""Page_Onliner/HomePage/catalogMenuButton""))",Chrome 91.0.4472.114,,,2021-07-06 17:04:04,2021-07-06 17:04:06,2.032s,PASSED
+"click(findTestObject(""Page_Onliner/CatalogPage/electronicsMenuButton""))",Chrome 91.0.4472.114,,,2021-07-06 17:04:06,2021-07-06 17:04:07,0.670s,PASSED
+"mouseOver(findTestObject(""Page_Onliner/CatalogPage/tvVideoButton""))",Chrome 91.0.4472.114,,,2021-07-06 17:04:07,2021-07-06 17:04:08,0.645s,PASSED
+"click(findTestObject(""Page_Onliner/CatalogPage/televisionsMenuButton""))",Chrome 91.0.4472.114,,,2021-07-06 17:04:08,2021-07-06 17:04:13,5.630s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Onliner/CatalogPage/samsungItem""), 5)",Chrome 91.0.4472.114,,,2021-07-06 17:04:13,2021-07-06 17:04:14,1.200s,PASSED
+"click(findTestObject(""Page_Onliner/CatalogPage/samsungItem""))",Chrome 91.0.4472.114,,,2021-07-06 17:04:14,2021-07-06 17:04:15,0.568s,PASSED
+onliner.NumberElements.checkNumberElements(productsPerPage),Chrome 91.0.4472.114,,,2021-07-06 17:04:15,2021-07-06 17:04:17,1.859s,PASSED
+onliner.ProductsName.checkProductsName(samsung),Chrome 91.0.4472.114,,,2021-07-06 17:04:17,2021-07-06 17:04:17,0.572s,PASSED
+Start tear down : tearDownTestCase,Chrome 91.0.4472.114,,,2021-07-06 17:04:17,2021-07-06 17:04:18,0.724s,PASSED

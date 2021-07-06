@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="18.928" tests="1" failures="0" errors="0">
+   <testsuite name="Smoke" tests="1" failures="0" errors="0" time="18.928" skipped="0" timestamp="2021-07-06 17:03:59" hostname="Siarhei.Paulovich - wsa-112-11.icx.local" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\KatalonProjects\\OnlinerTest\\KatalonStudio\\Reports\\20210706_170350\\Smoke\\20210706_170350"/>
+         <property name="logFiles" value="D:\\KatalonProjects\\OnlinerTest\\KatalonStudio\\Reports\\20210706_170350\\Smoke\\20210706_170350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Siarhei.Paulovich - wsa-112-11.icx.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.114"/>
+         <property name="hostAddress" value="192.168.118.1"/>
+         <property name="sessionId" value="43b614f34f30bbfbda684d21a5d610d8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Onliner" time="18.516" classname="Test Cases/Onliner" status="PASSED">
+         <system-out><![CDATA[2021-07-06 17:04:00 - [TEST_CASE][PASSED] - Test Cases/Onliner: Test Cases/Onliner
+
+2021-07-06 17:04:00 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2021-07-06 17:04:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-06 17:04:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-06 17:04:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-06 17:04:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-06 17:04:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-07-06 17:04:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-07-06 17:04:02 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2021-07-06 17:04:02 - [TEST_STEP][PASSED] - navigateToUrl(baseURL): Navigate to 'https://www.onliner.by/' successfully
+
+2021-07-06 17:04:04 - [MESSAGE][PASSED] - Navigate to 'https://www.onliner.by/' successfully
+
+2021-07-06 17:04:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Onliner/HomePage/catalogMenuButton")): Object: 'Object Repository/Page_Onliner/HomePage/catalogMenuButton' is clicked on
+
+2021-07-06 17:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/HomePage/catalogMenuButton' is clicked on
+
+2021-07-06 17:04:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Onliner/CatalogPage/electronicsMenuButton")): Object: 'Object Repository/Page_Onliner/CatalogPage/electronicsMenuButton' is clicked on
+
+2021-07-06 17:04:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/CatalogPage/electronicsMenuButton' is clicked on
+
+2021-07-06 17:04:07 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Page_Onliner/CatalogPage/tvVideoButton")): Object: 'Object Repository/Page_Onliner/CatalogPage/tvVideoButton' is hovered
+
+2021-07-06 17:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/CatalogPage/tvVideoButton' is hovered
+
+2021-07-06 17:04:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_Onliner/CatalogPage/televisionsMenuButton")): Object: 'Object Repository/Page_Onliner/CatalogPage/televisionsMenuButton' is clicked on
+
+2021-07-06 17:04:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/CatalogPage/televisionsMenuButton' is clicked on
+
+2021-07-06 17:04:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Onliner/CatalogPage/samsungItem"), 5): Object 'Object Repository/Page_Onliner/CatalogPage/samsungItem' is clickable
+
+2021-07-06 17:04:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Onliner/CatalogPage/samsungItem' is clickable
+
+2021-07-06 17:04:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Onliner/CatalogPage/samsungItem")): Object: 'Object Repository/Page_Onliner/CatalogPage/samsungItem' is clicked on
+
+2021-07-06 17:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/CatalogPage/samsungItem' is clicked on
+
+2021-07-06 17:04:15 - [TEST_STEP][PASSED] - onliner.NumberElements.checkNumberElements(productsPerPage): onliner.NumberElements.checkNumberElements is PASSED
+
+2021-07-06 17:04:17 - [MESSAGE][PASSED] - onliner.NumberElements.checkNumberElements is PASSED
+
+2021-07-06 17:04:17 - [TEST_STEP][PASSED] - onliner.ProductsName.checkProductsName(samsung): onliner.ProductsName.checkProductsName is PASSED
+
+2021-07-06 17:04:17 - [MESSAGE][PASSED] - onliner.ProductsName.checkProductsName is PASSED
+
+2021-07-06 17:04:17 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2021-07-06 17:04:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-06 17:04:18 - [MESSAGE][PASSED] - Browser is closed
+
+2021-07-06 17:04:18 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-06 17:03:59 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Onliner]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

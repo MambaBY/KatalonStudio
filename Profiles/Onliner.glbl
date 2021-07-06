@@ -6,11 +6,6 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>30</initValue>
-      <name>productsPerPage</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://www.onliner.by/'</initValue>
       <name>baseURL</name>
    </GlobalVariableEntity>

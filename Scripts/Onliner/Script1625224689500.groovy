@@ -25,6 +25,8 @@ WebUI.mouseOver(findTestObject('Page_Onliner/CatalogPage/tvVideoButton'))
 
 WebUI.click(findTestObject('Page_Onliner/CatalogPage/televisionsMenuButton'))
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Onliner/CatalogPage/samsungItem'), 5)
+
 WebUI.click(findTestObject('Page_Onliner/CatalogPage/samsungItem'))
 
 CustomKeywords.'onliner.NumberElements.checkNumberElements'(productsPerPage)
