@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,,,2021-07-06 16:33:13,2021-07-06 16:33:14,0.582s,ERROR
+,,,,,,,
+Test Cases/Onliner,,,,2021-07-06 16:33:14,2021-07-06 16:33:14,0.355s,ERROR
+Start setup action : setupTestCase,,,,2021-07-06 16:33:14,2021-07-06 16:33:14,0.260s,ERROR

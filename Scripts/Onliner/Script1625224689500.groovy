@@ -15,9 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.baseURL)
-
-WebUI.maximizeWindow()
+WebUI.navigateToUrl(GlobalVariable.baseURL)
 
 WebUI.click(findTestObject('Page_Onliner/HomePage/catalogMenuButton'))
 
@@ -32,3 +30,4 @@ WebUI.click(findTestObject('Page_Onliner/CatalogPage/samsungItem'))
 CustomKeywords.'onliner.NumberElements.checkNumberElements'(productsPerPage)
 
 CustomKeywords.'onliner.ProductsName.checkProductsName'('Samsung')
+
