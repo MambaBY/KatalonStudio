@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>productsPerPage</name>
    </variable>
+   <variable>
+      <defaultValue>'Samsung'</defaultValue>
+      <description></description>
+      <id>e480ff51-6096-443d-99a5-6caea0321f45</id>
+      <masked>false</masked>
+      <name>samsung</name>
+   </variable>
 </TestCaseEntity>

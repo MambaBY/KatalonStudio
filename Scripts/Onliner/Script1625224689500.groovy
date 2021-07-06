@@ -29,4 +29,4 @@ WebUI.click(findTestObject('Page_Onliner/CatalogPage/samsungItem'))
 
 CustomKeywords.'onliner.NumberElements.checkNumberElements'(productsPerPage)
 
-CustomKeywords.'onliner.ProductsName.checkProductsName'('Samsung')
+CustomKeywords.'onliner.ProductsName.checkProductsName'(samsung)
