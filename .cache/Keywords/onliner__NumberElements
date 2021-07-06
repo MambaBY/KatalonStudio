@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "3D329A5B8E9174E51A3D3CA68D5486E9",
+  "keywordClasses": [
+    {
+      "name": "onliner.NumberElements",
+      "keywordMethods": [
+        {
+          "name": "checkNumberElements",
+          "parameters": [
+            {
+              "name": "productsPerPage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

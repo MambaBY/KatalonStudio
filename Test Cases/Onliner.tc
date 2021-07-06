@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Onliner</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf40064f-846f-4d10-afda-5b7010958144</testCaseGuid>
+   <variable>
+      <defaultValue>30</defaultValue>
+      <description></description>
+      <id>66e882fa-4cd3-4b39-9a5c-e7f67c7d0957</id>
+      <masked>false</masked>
+      <name>productsPerPage</name>
+   </variable>
+</TestCaseEntity>
